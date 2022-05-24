@@ -1,0 +1,22 @@
+
+
+
+Input number of seconds N 
+M = N / 60      M-MONTHS-TOTAL
+M = MQ , MR     MQ - MONTHS-QUOTIENT , MR- MONTHS-REMAINDER
+SS = MR * 60 
+
+H = MQ / 60     H - HOURS-TOTAL 
+H = HQ , HR     HQ - HOURS-QUOTIENT , HR- HOURS-REMAINDER
+MM = HR * 60
+
+D = HQ / 24     D - DAYS-TOTAL
+D = DQ , DR     DQ - DAYS-QUOTIENT , DR- DAYS-REMAINDER
+HH = DR * 24 
+
+W = DQ / 7      W - WEEKS-TOTAL
+W = WQ , WR     WQ - WEEKS-QUOTIENT , WR- WEEKS-REMAINDER
+DD = WR * 7
+
+WW = WQ
+
