@@ -1,0 +1,13 @@
+
+
+RN = random number
+Insert random number N
+Check if the N = RN 
+If true 
+  Output "You are correct, the random number is RN"
+If false 
+  Check if N > RN
+  If true 
+    Output "My number is lower than N, guess again"
+  If false
+    Output  "My number is higher than N, guess again"
